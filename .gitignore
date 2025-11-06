@@ -4,6 +4,7 @@
 
 # Конфиденциальные конфигурационные файлы
 app/task/lec02/Access/
+app/task/lec03/Access/
 app/Access/*.env
 app/task/lec02/Access/db_config.env
 app/task/lec02/Access/telegram_config.env
