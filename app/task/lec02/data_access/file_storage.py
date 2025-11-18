@@ -31,8 +31,3 @@ class FileStorage:
     def find_json_files(directory: str) -> list:
         """Find all JSON files in directory"""
         return sorted(glob.glob(os.path.join(directory, '*.json')))
-    
-    @staticmethod
-    def save_avro(file_path: str) -> None:
-        """Create Avro file handler"""
-        return open(file_path, 'wb')
