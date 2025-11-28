@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 
 # Загружаємо змінні з config.env
-config_path = os.path.join(os.path.dirname(__file__), 'Access', 'config.env')
+config_path = os.path.join(os.path.dirname(__file__), '..', 'Access', 'config.env')
 load_dotenv(config_path)
 
 BASE_DIR = os.environ.get("BASE_DIR")
